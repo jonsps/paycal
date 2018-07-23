@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+}
+
+.App-logo {
+  height: 50px;
+}
+
+.Footer-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 30px;
+}
+
+.Header, .Body, .Footer {
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.Header {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.Body {
+	margin-top: 20px;
+	width: 80%;
+}
+
+.Footer {
+	border-top: 1px solid #e6e6e6;
+	bottom: 0;
+	position: fixed;
+	left: 0;
+	width: 100%;
+}

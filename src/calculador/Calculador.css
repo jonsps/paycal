@@ -1,0 +1,122 @@
+.Accion {
+	padding: 10px;
+	width: 315px;
+	border-radius: 10px 10px 10px 10px;
+	text-align-last:center;
+	background: #fc6591;
+	border: none;
+	color: #ffffff;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Accion:focus {
+	outline:0px;
+}
+
+.Accion:Hover {
+	background: #d9577d;
+}
+
+.Cantidad {
+	border: 3px solid #fc6591;
+	border-radius: 10px 10px 10px 10px;
+	padding: 5px;
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.Cantidad input{
+	border: none;
+	border-left:1px solid #e6e6e6;
+	text-align: right;
+	font-size: 30px;
+}
+
+.Cantidad input:focus {
+	outline:0px;
+}
+
+.Cantidad input::-webkit-outer-spin-button,
+.Cantidad input::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+    margin: 0;
+}
+
+.Comision {
+	border: 3px solid #808080;
+	border-radius: 10px 10px 10px 10px;
+	padding: 5px;
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.Comision input{
+	border: none;
+	border-left:1px solid #e6e6e6;
+	text-align: right;
+	font-size: 30px;
+}
+
+.Comision input:focus {
+	outline:0px;
+}
+
+.Comision input::-webkit-outer-spin-button,
+.Comision input::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+    margin: 0;
+}
+
+.Operacion {
+	border: 3px solid #009cde;
+	border-radius: 10px 10px 10px 10px;
+	padding: 5px;
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.Operacion input{
+	border: none;
+	border-left:1px solid #e6e6e6;
+	text-align: right;
+	font-size: 30px;
+}
+
+.Operacion input:focus {
+	outline:0px;
+}
+
+.Operacion input::-webkit-outer-spin-button,
+.Operacion input::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+    margin: 0;
+}
+
+.Feeds {
+	font-size: 14px;
+	color: #999999;
+}
+
+.Feeds input::-webkit-outer-spin-button,
+.Feeds input::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+    margin: 0;
+}
+
+.Feeds input{
+	border: none;
+	text-align: right;
+	border-bottom: 1px solid #e6e6e6;
+    font-family: 'Oxygen', sans-serif;
+    color: #666666;
+}
+
+.Feeds input:focus {
+	outline:0px;
+}
